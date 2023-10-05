@@ -9,12 +9,11 @@ export const BG_URL =
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 
-console.log(process.env.REACT_APP_TMDB_KEY);
-
 export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNzJjY2VmNDc2YTQxNjZmNzM5OGZkMzVlNTYwZmM3NyIsInN1YiI6IjY1MWQ0ZjFmMDcyMTY2MDBjNTY4ZGQwZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.YOPp-oxLAyDEicbEBxsPDwybm1gyVGsyXhhHq1E0ZqE",
   },
 };
